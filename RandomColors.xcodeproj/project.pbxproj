@@ -13,6 +13,9 @@
 		D2719FE62BE8188C007FED9D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D2719FE52BE8188C007FED9D /* Base */; };
 		D2719FE82BE8188D007FED9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2719FE72BE8188D007FED9D /* Assets.xcassets */; };
 		D2719FEB2BE8188D007FED9D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D2719FEA2BE8188D007FED9D /* Base */; };
+		D2719FF42BE81A0B007FED9D /* ColorsDetailVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2719FF32BE81A0B007FED9D /* ColorsDetailVCViewController.swift */; };
+		D2719FF72BE8264E007FED9D /* RandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2719FF62BE8264E007FED9D /* RandomColor.swift */; };
+		D2719FFA2BE827AD007FED9D /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2719FF92BE827AD007FED9D /* Enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D2719FE72BE8188D007FED9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2719FEA2BE8188D007FED9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2719FEC2BE8188D007FED9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2719FF32BE81A0B007FED9D /* ColorsDetailVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailVCViewController.swift; sourceTree = "<group>"; };
+		D2719FF62BE8264E007FED9D /* RandomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColor.swift; sourceTree = "<group>"; };
+		D2719FF92BE827AD007FED9D /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,50 @@
 		D2719FDD2BE8188C007FED9D /* RandomColors */ = {
 			isa = PBXGroup;
 			children = (
+				D2719FFB2BE82840007FED9D /* Storyboards */,
+				D2719FF82BE827A1007FED9D /* Enums */,
+				D2719FF52BE82642007FED9D /* Extensions */,
+				D2719FF22BE819F1007FED9D /* View */,
 				D2719FDE2BE8188C007FED9D /* AppDelegate.swift */,
 				D2719FE02BE8188C007FED9D /* SceneDelegate.swift */,
-				D2719FE22BE8188C007FED9D /* ViewController.swift */,
-				D2719FE42BE8188C007FED9D /* Main.storyboard */,
 				D2719FE72BE8188D007FED9D /* Assets.xcassets */,
-				D2719FE92BE8188D007FED9D /* LaunchScreen.storyboard */,
 				D2719FEC2BE8188D007FED9D /* Info.plist */,
 			);
 			path = RandomColors;
+			sourceTree = "<group>";
+		};
+		D2719FF22BE819F1007FED9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D2719FE22BE8188C007FED9D /* ViewController.swift */,
+				D2719FF32BE81A0B007FED9D /* ColorsDetailVCViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D2719FF52BE82642007FED9D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D2719FF62BE8264E007FED9D /* RandomColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D2719FF82BE827A1007FED9D /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				D2719FF92BE827AD007FED9D /* Enums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		D2719FFB2BE82840007FED9D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D2719FE42BE8188C007FED9D /* Main.storyboard */,
+				D2719FE92BE8188D007FED9D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +180,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2719FE32BE8188C007FED9D /* ViewController.swift in Sources */,
+				D2719FF72BE8264E007FED9D /* RandomColor.swift in Sources */,
 				D2719FDF2BE8188C007FED9D /* AppDelegate.swift in Sources */,
+				D2719FF42BE81A0B007FED9D /* ColorsDetailVCViewController.swift in Sources */,
+				D2719FFA2BE827AD007FED9D /* Enums.swift in Sources */,
 				D2719FE12BE8188C007FED9D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
